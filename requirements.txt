@@ -1,9 +1,9 @@
 accelerate==1.2.1
-aiobotocore @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_1cl06d5vjc/croot/aiobotocore_1714464399334/work
-aiohappyeyeballs @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_170hwh6b2i/croot/aiohappyeyeballs_1725434022310/work
-aiohttp==3.11.11
-aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+# aiobotocore @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_1cl06d5vjc/croot/aiobotocore_1714464399334/work
+# aiohappyeyeballs @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_170hwh6b2i/croot/aiohappyeyeballs_1725434022310/work
+# aiohttp==3.11.11
+# aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
+# aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 alabaster @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_39uesgct45/croot/alabaster_1718201495024/work
 alembic==1.14.0
 altair @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/altair_1699282542592/work
