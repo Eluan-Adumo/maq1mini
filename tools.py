@@ -2,7 +2,7 @@ import difflib
 import re
 from bs4 import BeautifulSoup
 from crewai.tools import tool
-from crewai_tools import SerperDevTool
+# from crewai_tools import SerperDevTool
 import requests
 from apify_client import ApifyClient # type: ignore
 from urllib.parse import urljoin
