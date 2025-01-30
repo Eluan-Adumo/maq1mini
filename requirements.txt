@@ -17,7 +17,7 @@ chroma-hnswlib==0.7.6
 chromadb==0.6.2
 cohere==5.13.6
 # conda-content-trust
-conda-libmamba-solver
+# conda-libmamba-solver
 conda-pack
 conda-package-handling
 conda-repo-cli
