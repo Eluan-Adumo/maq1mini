@@ -16,7 +16,7 @@ build==1.2.2.post1
 chroma-hnswlib==0.7.6
 chromadb==0.6.2
 cohere==5.13.6
-conda-content-trust
+# conda-content-trust
 conda-libmamba-solver
 conda-pack
 conda-package-handling
@@ -102,7 +102,7 @@ h2==4.1.0
 h5py
 HeapDict
 holoviews
-hpack==4.0.0
+# hpack==4.0.0
 html5lib==1.1
 httpcore
 httptools==0.6.4
@@ -403,7 +403,7 @@ sphinxcontrib-htmlhelp
 sphinxcontrib-jsmath
 sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
-spider-client==0.1.25
+# spider-client==0.1.25
 spyder
 spyder-kernels
 SQLAlchemy
