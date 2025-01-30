@@ -1,4 +1,4 @@
-beautifulsoup4==4.11.1
+beautifulsoup4==4.12.3
 crewai==0.95.0
 crewai-tools==0.25.8
 requests==2.28.1
