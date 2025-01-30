@@ -18,15 +18,15 @@ chromadb==0.6.2
 cohere==5.13.6
 # conda-content-trust
 # conda-libmamba-solver
-conda-pack
-conda-package-handling
-conda-repo-cli
-conda-token
-conda_index
-conda_package_streaming
-constantly
-contourpy
-cookiecutter
+# conda-pack
+# conda-package-handling
+# conda-repo-cli
+# conda-token
+# conda_index
+# conda_package_streaming
+# constantly
+# contourpy
+# cookiecutter
 crewai==0.95.0
 crewai-tools==0.25.8
 cryptography==43.0.3
