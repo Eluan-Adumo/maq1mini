@@ -8,26 +8,26 @@ import asyncio
 from dotenv import load_dotenv
 from maqx104 import *
 # initialize the flask app
-application =  Flask(__name__)
+app =  Flask(__name__)
 
-CORS(application, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 
 # load_dotenv()
 # First we want to initialize the text conversion class
-@application.before_request
+@app.before_request
 def log_request_info():
     print("Headers:", request.headers)
     print("Body:", request.data)
 
 
 
-@application.route("/", methods=["GET", "POST", "OPTIONS"])
+@app.route("/", methods=["GET", "POST", "OPTIONS"])
 def home():
     return "Welcome to my Flask application"
 
 
-@application.route("/prompts/make_prompt", methods=["POST", "OPTIONS", "GET"])
+@app.route("/prompts/make_prompt", methods=["POST", "OPTIONS", "GET"])
 def make_prompt():
     if request.method == "OPTIONS":
         return jsonify({"message": ""}), 200
@@ -92,7 +92,7 @@ def make_prompt():
             return jsonify({"error": str(e)}), 500
 
     
-@application.after_request
+@app.after_request
 def add_cors_headers(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
     response.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS'
@@ -105,4 +105,4 @@ def add_cors_headers(response):
 
 
 if __name__=="__main__":
-    application.run(debug=True, port=5000)
+    app.run(debug=True, port=5000)
