@@ -24,4 +24,4 @@ COPY . .
 EXPOSE 5100
 
 # Command to run the application
-CMD ["gunicorn", "--bind", "0.0.0.0:5100", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
