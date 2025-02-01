@@ -1,7 +1,7 @@
 import difflib
 import re
 from bs4 import BeautifulSoup
-from crewai.tools import tool
+from crewai_tools import tool
 # from crewai_tools import SerperDevTool
 import requests
 from apify_client import ApifyClient # type: ignore
@@ -10,6 +10,9 @@ import ast
 import os
 from crewai import Agent, Crew, Task
 
+# Define the tool decorator manually if it's not available in crewai.tools
+def tool(func):
+    return func
 
 @tool
 def google_search_tool(query: str, api_key: str, cse_id: str, num_results: int = 10):

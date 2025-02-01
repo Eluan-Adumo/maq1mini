@@ -1,5 +1,5 @@
 from crewai import Agent, Task, Crew, Process, LLM
-from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
+# from crewai.knowledge.source.string_knowledge_source import StringKnowledgeSource
 from apify_client import ApifyClientAsync
 from apify_client import ApifyClient
 from pydantic import BaseModel
