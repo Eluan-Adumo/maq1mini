@@ -17,9 +17,7 @@ from tools import *
 from urllib.parse import urljoin
 import difflib 
 import json
-import litellm 
-from litellm import completion
-from litellm import LiteLLM
+
 # from llm_integration import *
 # from transformers import AutoModelForCausalLM, AutoTokenizer
 # import torch
